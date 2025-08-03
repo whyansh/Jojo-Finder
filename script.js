@@ -65,7 +65,7 @@ BRO WORE THE SAME OUTFIT FOR 10 YEARS AND STILL SLAYED
 
 #STARPLATINUMSUPREMACY #DADMODEUNLOCKED 🐬📚🥊`;
         document.getElementById('left-content').style.visibility = "visible";
-       douc
+       
     } else if (diceNumber === 4) {
         document.getElementById('i4').style.visibility = "visible";
         document.body.style.backgroundImage = "url('josuke.gif')";
