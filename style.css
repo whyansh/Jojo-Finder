@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  padding: 0;
+  height: 100vh;
+   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 650px 340px; 
+  
+}
+.firstHeading {
+    text-align: center;
+    color: #333;
+}
+.roll {
+   display: flex;
+   justify-content: center
+   
+
+}
+#titleImage {
+    width: 420px;    
+    height: 100px;
+    margin-bottom: 0em;
+    
+    
+}
+#diceImage {
+    display: block;
+    margin: 20px auto; 
+
+    position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 80px;    
+  z-index: 1000;
+}
+#rollCount {
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+   justify-content: center;
+    padding: 10px; /* optional, for better appearance */
+    width: fit-content; /* optional */
+    margin: 10px auto;  /* optional, centers the box */
+    visibility: hidden; 
+}
+.character img {
+     width: 200px;    /* set your desired width */
+    height: 200px;   /* set your desired height */
+    object-fit: cover; /* keeps aspect ratio and fills the box */
+    border-radius: 10px; /* optional: rounded corners */
+    position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  border: 4px solid #d769ddf5;
+  
+   
+}
+.character {
+    visibility: hidden;
+    
+}
+#left-content {
+    display: inline-block;
+  font-family: 'Bangers';
+  font-size: 1.5rem;
+  white-space: pre-line; 
+  color: #241f1f;
+text-shadow: 2px 2px rgb(220, 190, 190);
+
+}
+button:hover {
+  background-color: white;
+  color: #ff69b4;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #ff69b4;
+}
+
+
